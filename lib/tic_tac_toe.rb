@@ -96,4 +96,3 @@ WIN_COMBINATIONS = [
     puts "It's a draw!"
   end
 end
-end
