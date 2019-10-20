@@ -87,4 +87,6 @@ WIN_COMBINATIONS = [
     turn
   end
   if won?
-    puts "Congratulations #{winner}!"
+    puts "Congratulations #{winner} you won!"
+  elsif draw?
+    puts ""
