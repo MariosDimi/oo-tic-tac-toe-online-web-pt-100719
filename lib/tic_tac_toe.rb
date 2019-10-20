@@ -58,3 +58,17 @@ WIN_COMBINATIONS = [
   end
   
   def full?
+    @board.all?{|occupied| occupied !=" "}
+  end
+  
+  def draw?
+    !(won?) && (full?)
+  end
+  
+  def over?
+    won? || full? || draw?
+  end
+  
+  def winner
+    WIN_COMBINATIONS.detect do |win_combo|
+      if
