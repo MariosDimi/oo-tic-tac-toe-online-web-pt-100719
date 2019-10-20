@@ -89,4 +89,7 @@ WIN_COMBINATIONS = [
   if won?
     puts "Congratulations #{winner} you won!"
   elsif draw?
-    puts ""
+    puts "It's a draw!"
+  end
+end
+end
